@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/index.css">
+
+        <link rel="stylesheet" href="./css/style.min.css" />
+
+    </head>
+    <body>
+        <div class="example-2 card">
+            <div class="wrapper">
+                <div class="header">
+                </div>
+                <div class="data">
+                    <fieldset class="fieldSet">
+                        <legend class="legend">Listado de carpetas</legend>
+                        <div class="divOpciones">
+                            <input type="button" id="btnToggle" value="Des/Marcar">
+                        </div>
+                        <div id="divCheckbox">
+                        </div>
+                    </fieldset>
+                    <div class="divBuscador">
+                        <label>Contenido del texto a buscar:</label>
+                        <input type="text" id="txtTexto" value="" autofocus>
+                        <input type="button" id="btnBuscar" value="Buscar">
+                        <input type="button" id="btnLimpiar" value="Limpiar">
+                    </div>
+                    <fieldset class="fieldSet">
+                        <legend class="legend">Resultados</legend>
+                        <div class="divResultados">
+                            <div id="jstree_demo_div" class="jstree_demo">
+                            </div>
+                        </div>
+                        <div class="divOpciones">
+                            <input type="button" id="btnCollapse" value="Colapsar">
+                            <input type="button" id="btnExpand" value="Expandir">
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add this androidjs.js file to your html file to get the functionality of android js -->
+        <script type="text/javascript" src="../assets/androidjs.js"></script>
+
+        <script src="../assets/jquery.min.js"></script>
+        <script src="../assets/jstree.min.js"></script>
+        
+        <!-- Logic -->
+        <script type="text/javascript" src="./js/index.js"></script>
+    </body>
+</html>

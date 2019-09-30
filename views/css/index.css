@@ -1,0 +1,37 @@
+body{
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 90%;
+}
+
+.legend {
+  font-weight: bold;
+  color: blue;
+}
+
+.fieldSet {
+  margin-left:10px;   
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 90%;
+  min-width: 50%;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.divBuscador {
+  margin-left: 30px;                      
+  margin-top: 10px;
+}
+
+.divOpciones {
+  margin-left:10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.divResultados {
+  overflow: auto;
+  height: 300px;
+  width: 90%;
+}

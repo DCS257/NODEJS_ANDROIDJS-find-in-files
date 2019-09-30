@@ -1,0 +1,5 @@
+node_modules/
+.sonarlint/zº
+dist/
+package-lock.json
+build.txt
